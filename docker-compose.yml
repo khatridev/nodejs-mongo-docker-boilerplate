@@ -1,0 +1,7 @@
+services:
+  web:
+    ports:
+      - "2222:3033"
+    image: "devk3/mongotest"
+    env_file:
+    - .env
